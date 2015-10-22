@@ -1,15 +1,15 @@
 //
-//  ViewController.h
+//  PSHWeapon.h
 //  SkyHunter
 //
 //  Created by Peng Wan on 15-10-21.
 //  Copyright (c) 2015年 Peng Wan. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "PSHFlyer.h"
 
-@interface ViewController : UIViewController
+@interface PSHWeapon : PSHFlyer
 
-- (void)createBackToMenuButton;
+@property (nonatomic) NSUInteger damage;
 
 @end
